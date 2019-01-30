@@ -32,7 +32,7 @@
 * Be sure to generate a new `Serial Number` and `SmUUID` for the SMBIOS
 
 ### Motherboard
-Currently using bios 1.20 until Asrock sorts out their newer BIOS versions
+Currently using bios 1.50 with `Fix AsRock Z390 BIOS DSDT Device(RTC) bug` fix
 
 Change these settings in the BIOS
 * Advanced > Chipset Configuration > VT-d -> Disabled
