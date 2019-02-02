@@ -8,25 +8,28 @@
 * AIO H100i Pro Liquid CPU Cooler
 * Samsung 970 EVO 500gb - NVMe PCIe M.2.
 * BCM94350ZAE WiFi + BT
+* DA2 Streacom Mini-ITX Case
 
 ## What Works
 * iGPU for Accelerated Graphics
-* Case + Motherboard Audio
+* Airdrop
+* Audio
 * USB 3.0 Speeds
 * Bluetooth
 * Wi-Fi
 * Ethernet
-
-## Still Testing
-* iMessage (haven't checked)
-* Airdrop (haven't checked)
 * Sleep
 * Shutdown
 
+## Still Testing
+* iMessage (haven't checked)
+
 ## What doesn't work
 * Thunderbolt Hot Plug
+* Front Panel USB-C (SSDT may be out of date)
 
 ## Installation
+* Will update eventually. If you'd like to know sooner, feel free to submit an issue.
 
 ### config.plist
 * Be sure to generate a new `Serial Number` and `SmUUID` for the SMBIOS
@@ -39,4 +42,4 @@ Change these settings in the BIOS
 * Advanced > USB Configuration > XHCI Hand-off -> Enabled
 
 ### Wi-Fi / Bluetooth 
-* I replaced the stock Asrock Wi-Fi / BT card with a BCM94350ZAE
+* I replaced the stock Asrock Wi-Fi / BT card with a BCM94350ZAE WiFi / Bluetooth Chip.
