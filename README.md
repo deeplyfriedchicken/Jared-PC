@@ -29,7 +29,7 @@
 * Thunderbolt Hot Plug
 
 ## Installation
-* Will update eventually. If you'd like to know sooner, feel free to submit an issue with specific questions about the installation process so I know that it's needed by someone.
+* FYI - the only important folder here is the `EFI` everything else is supplementary. Will update eventually. If you'd like to know sooner, feel free to submit an issue with specific questions about the installation process so I know that it's needed by someone.
 
 ### config.plist
 * Be sure to generate a new `Serial Number` and `SmUUID` for the SMBIOS
