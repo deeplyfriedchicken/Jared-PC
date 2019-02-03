@@ -32,13 +32,9 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_UIAC", 0)
                     "HS01", Package() // Internal
                     {
                         "UsbConnector", 1,
-                        "port", Buffer() { 3, 0, 0, 0 },
+                        "port", Buffer() { 1, 0, 0, 0 },
                     },
-                    "HS02", Package() // Internal
-                    {
-                        "UsbConnector", 2,
-                        "port", Buffer() { 3, 0, 0, 0 },
-                    },
+                    // Internal USB #2 - Corsair H100i Pro
                     "HS03", Package() // Rear, left of HDMI
                     {
                         "UsbConnector", 3,
@@ -51,7 +47,11 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_UIAC", 0)
                     },
                     // HS05, Rear, right of HDMI
                     // HS06 Rear, right of DisplayPort
-                    // HS07: presumably for USB-C, but that doesn't work anyway
+                    "HS07", Package() // HS07: presumably for USB-C, but that doesn't work anyway
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 7, 0, 0, 0 },
+                    },
                     "HS08", Package() // Rear, right of ThunderBolt
                     {
                         "UsbConnector", 3,
@@ -61,7 +61,13 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_UIAC", 0)
                     {
                         "UsbConnector", 3,
                         "port", Buffer() { 9, 0, 0, 0 },
-                    }, // HS10-11, USB2 devices on case connectors, HS12-13 unused?
+                    },
+                    "HS11", Package() // Rear, under Ethernet
+                    {
+                        "UsbConnector", 3,
+                        "port", Buffer() { 11, 0, 0, 0 },
+                    },
+                    // HS10, USB2 devices on case connectors
                     "HS14", Package() // bluetooth
                     {
                         "UsbConnector", 255,
@@ -89,12 +95,12 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_UIAC", 0)
                         "UsbConnector", 3,
                         "port", Buffer() { 22, 0, 0, 0 },
                     },
-                    "SS07", Package() // Case, next to audio
+                    "SS07", Package() // case USB 3
                     {
                         "UsbConnector", 3,
                         "port", Buffer() { 23, 0, 0, 0 },
                     },
-                    "SS08", Package() // Case, next to power
+                    "SS08", Package() // Case USB 3
                     {
                         "UsbConnector", 3,
                         "port", Buffer() { 24, 0, 0, 0 },
