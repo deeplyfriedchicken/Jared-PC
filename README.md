@@ -1,5 +1,8 @@
 # Asrock Phantom Gaming ITX / 9900K / MSI v1 RX580
 
+![Desktop Screenshot](https://github.com/kcunanan/Jared-PC/blob/master/images/desktop-neofetch-screenshot.png?raw=true)
+![Geekbench Score](https://github.com/kcunanan/Jared-PC/blob/master/images/geekbench-score.png?raw=true)
+
 ## Parts
 * Intel Core i9-9900k
 * ASRock Z390 Phantom Gaming-ITX/AC
