@@ -3,6 +3,13 @@
 ![Desktop Screenshot](https://github.com/kcunanan/Jared-PC/blob/master/images/desktop-neofetch-screenshot.png?raw=true)
 ![Geekbench Score](https://github.com/kcunanan/Jared-PC/blob/master/images/geekbench-score.png?raw=true)
 
+![PC Case - Side Closed](https://github.com/kcunanan/Jared-PC/blob/master/images/closed-side-pc.jpg?raw=true)
+![PC Case - Front](https://github.com/kcunanan/Jared-PC/blob/master/images/front-pc.jpg?raw=true)
+![PC Case - Back](https://github.com/kcunanan/Jared-PC/blob/master/images/back-pc.jpg?raw=true)
+![PC Case - Open Side Left](https://github.com/kcunanan/Jared-PC/blob/master/images/open-pc-side-left.jpg?raw=true)
+![PC Case - Open Side Right](https://github.com/kcunanan/Jared-PC/blob/master/images/open-side-pc-right.jpg?raw=true)
+
+
 ## Parts
 * Intel Core i9-9900k
 * ASRock Z390 Phantom Gaming-ITX/AC
