@@ -1,7 +1,9 @@
 # Asrock Phantom Gaming ITX / 9900K / MSI v1 RX580
 
 ![Desktop Screenshot](https://github.com/kcunanan/Jared-PC/blob/master/images/desktop-neofetch-screenshot.png?raw=true)
-![Geekbench Score](https://github.com/kcunanan/Jared-PC/blob/master/images/geekbench-score.png?raw=true)
+<div align="center">
+  <img src="https://github.com/kcunanan/Jared-PC/blob/master/images/geekbench-score.png?raw=true">
+</div>
 
 ![PC Case - Side Closed](https://github.com/kcunanan/Jared-PC/blob/master/images/closed-side-pc.jpg?raw=true)
 ![PC Case - Front](https://github.com/kcunanan/Jared-PC/blob/master/images/front-pc.jpg?raw=true)
