@@ -1,5 +1,5 @@
 # Asrock Phantom Gaming ITX / 9900K / MSI v1 RX580
-* OS - 10.14.2
+* Version - 10.14.3
 
 ##### Table of Contents
 * [Images](#images)
