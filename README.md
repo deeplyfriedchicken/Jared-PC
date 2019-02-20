@@ -35,6 +35,7 @@
 * 16gb (2 x 8gb) Corsair Vengeance LPX DDR4 3200MHz
 * AIO H100i Pro Liquid CPU Cooler
 * Samsung 970 EVO 500gb - NVMe PCIe M.2.
+* WD Blue 3D NAND 1TB PC SSD
 * BCM94350ZAE WiFi + BT
 * DA2 Streacom Mini-ITX Case
 
@@ -48,9 +49,9 @@
 * Bluetooth
 * Wi-Fi
 * Ethernet
-* Sleep
+* Sleep (wake from power button, but still testing wake from USB)
 * Shutdown
-* Front Panel USB-C (minor issues like USB drives not mounting automatically, but needs more testing)
+* Front Panel USB-C
 
 <a name="still-testing"></a>
 
