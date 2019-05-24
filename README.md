@@ -36,7 +36,7 @@
 * AIO H100i Pro Liquid CPU Cooler
 * Samsung 970 EVO 500gb - NVMe PCIe M.2.
 * WD Blue 3D NAND 1TB PC SSD
-* BCM94350ZAE WiFi + BT
+* ~~BCM94350ZAE WiFi + BT~~ I've been having issues with this so I'm currently testing out a new card
 * DA2 Streacom Mini-ITX Case
 
 <a name="what-works"></a>
@@ -46,8 +46,8 @@
 * Airdrop
 * Audio
 * USB 3.0 Speeds
-* Bluetooth
-* Wi-Fi
+* ~~Bluetooth~~
+* Wi-Fi (only 2.4ghz)
 * Ethernet
 * Sleep (wake from power button, but still testing wake from USB)
 * Shutdown
@@ -79,7 +79,8 @@ Change these settings in the BIOS
 * Advanced > USB Configuration > XHCI Hand-off -> Enabled
 
 ### Wi-Fi / Bluetooth 
-* I replaced the stock Asrock Wi-Fi / BT card with a BCM94350ZAE WiFi / Bluetooth Chip. (create an issue if you'd like more documentation on this process)
+* ~~I replaced the stock Asrock Wi-Fi / BT card with a BCM94350ZAE WiFi / Bluetooth Chip. (create an issue if you'd like more documentation on this process)~~
+* [Moving to this card](https://www.ebay.com/itm/252319175707?ul_noapp=true) - will update after testing and installing
 
 <a name="motivation"></a>
 
