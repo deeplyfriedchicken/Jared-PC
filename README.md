@@ -6,7 +6,6 @@
 * [PC Parts](#parts)
 * [What Works](#what-works)
 * [Features Still Being Tested](#still-testing)
-* [What Doesn't Work](#no-work)
 * [Installation](#installation)
 * [Motivation](#motivation)
 
@@ -36,7 +35,7 @@
 * AIO H100i Pro Liquid CPU Cooler
 * Samsung 970 EVO 500gb - NVMe PCIe M.2.
 * WD Blue 3D NAND 1TB PC SSD
-* ~~BCM94350ZAE WiFi + BT~~ I've been having issues with this so I'm currently testing out a new card
+* Broadcom BCM94352Z (Dell DW1560)
 * DA2 Streacom Mini-ITX Case
 
 <a name="what-works"></a>
@@ -46,10 +45,10 @@
 * Airdrop
 * Audio
 * USB 3.0 Speeds
-* ~~Bluetooth~~
-* Wi-Fi (only 2.4ghz)
+* Bluetooth
+* Wi-Fi (2.4 and 5ghz)
 * Ethernet
-* Sleep (wake from power button, but still testing wake from USB)
+* Sleep (have not had issues for the past few months! As of 6/07/2019)
 * Shutdown
 * Front Panel USB-C
 
@@ -57,11 +56,7 @@
 
 ## Still Testing
 * iMessage (haven't checked)
-
-<a name="no-work"></a>
-
-## What doesn't work
-* Thunderbolt Hot Plug
+* Thunderbolt
 
 <a name="installation"></a>
 
@@ -80,7 +75,7 @@ Change these settings in the BIOS
 
 ### Wi-Fi / Bluetooth 
 * ~~I replaced the stock Asrock Wi-Fi / BT card with a BCM94350ZAE WiFi / Bluetooth Chip. (create an issue if you'd like more documentation on this process)~~
-* [Moving to this card](https://www.ebay.com/itm/252319175707?ul_noapp=true) - will update after testing and installing
+* [Moved to this card](https://www.ebay.com/itm/252319175707) - I've tested 5ghz and BT on both MacOS and Windows and each works without a problem as of **6/07/2019**
 
 <a name="motivation"></a>
 
