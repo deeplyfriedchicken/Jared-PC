@@ -55,7 +55,7 @@
 <a name="still-testing"></a>
 
 ## Still Testing
-* iMessage (haven't checked)
+* iMessage
 * Thunderbolt
 
 <a name="installation"></a>
