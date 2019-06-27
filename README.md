@@ -4,6 +4,7 @@
 ##### Table of Contents
 * [Images](#images)
 * [PC Parts](#parts)
+* [BIOS Settings](#bios)
 * [What Works](#what-works)
 * [Features Still Being Tested](#still-testing)
 * [Installation](#installation)
@@ -37,6 +38,11 @@
 * WD Blue 3D NAND 1TB PC SSD
 * Broadcom BCM94352Z (Dell DW1560)
 * DA2 Streacom Mini-ITX Case
+
+<a name="bios"></a>
+
+## BIOS
+* Graphics -> iGPU Multi-Monitor enabled
 
 <a name="what-works"></a>
 
