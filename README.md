@@ -31,9 +31,9 @@
 ## Parts
 * Intel Core i9-9900k
 * ASRock Z390 Phantom Gaming-ITX/AC
-* AMD RX580
+* AMD Sapphire RX570
 * 16gb (2 x 8gb) Corsair Vengeance LPX DDR4 3200MHz
-* AIO H100i Pro Liquid CPU Cooler
+* Noctua NH-DL9
 * Samsung 970 EVO 500gb - NVMe PCIe M.2.
 * WD Blue 3D NAND 1TB PC SSD
 * Broadcom BCM94352Z (Dell DW1560)
@@ -57,12 +57,12 @@
 * Sleep (have not had issues for the past few months! As of 6/07/2019)
 * Shutdown
 * Front Panel USB-C
+* Thunderbolt 3 (for graphics or for usb when powered on with it)
 
 <a name="still-testing"></a>
 
 ## Still Testing
 * iMessage
-* Thunderbolt
 
 <a name="installation"></a>
 
