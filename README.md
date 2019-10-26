@@ -20,7 +20,7 @@
 ![Desktop Screenshot](https://github.com/kcunanan/Jared-PC/blob/master/images/neofetch-catalina.png?raw=true)
 
 <div align="center">
-  <img src="https://github.com/kcunanan/Jared-PC/blob/master/images/geekbench-score.png?raw=true">
+  <img src="https://github.com/kcunanan/Jared-PC/blob/master/images/catalina-geekbench.png?raw=true">
 </div>
 
 
