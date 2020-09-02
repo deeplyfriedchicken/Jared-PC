@@ -1,5 +1,5 @@
-# Asrock Phantom Gaming ITX / 9900K / Sapphire RX570
-* Version - 10.15
+# Asrock Phantom Gaming ITX / 9900K / Sapphire RX570 - Opencore Installation
+* Version - 10.15.6
 * The kexts have been updated to support MacOS Catalina! Do a fresh install of all kexts to be safe. (Including removing those added to other folders not in `EFI`)
 
 ##### Table of Contents
@@ -7,7 +7,6 @@
 * [PC Parts](#parts)
 * [BIOS Settings](#bios)
 * [What Works](#what-works)
-* [Features Still Being Tested](#still-testing)
 * [Installation](#installation)
 * [Motivation](#motivation)
 
@@ -15,21 +14,21 @@
 
 ## Images
 
-![About this Mac](https://github.com/kcunanan/Jared-PC/blob/master/images/catalina-10-15-screenshot.png?raw=true)
+![About this Mac](./images/catalina-10-15-screenshot.png?raw=true)
 
-![Desktop Screenshot](https://github.com/kcunanan/Jared-PC/blob/master/images/neofetch-catalina.png?raw=true)
+![Desktop Screenshot](./images/neofetch.png?raw=true)
 
 <div align="center">
-  <img src="https://github.com/kcunanan/Jared-PC/blob/master/images/catalina-geekbench.png?raw=true">
+  <img src="images/catalina-geekbench.png?raw=true">
 </div>
 
 
 ### PC: Photos out of Date
-![PC Case - Side Closed](https://github.com/kcunanan/Jared-PC/blob/master/images/closed-side-pc.jpg?raw=true)
-![PC Case - Front](https://github.com/kcunanan/Jared-PC/blob/master/images/front-pc.jpg?raw=true)
-![PC Case - Back](https://github.com/kcunanan/Jared-PC/blob/master/images/back-pc.jpg?raw=true)
-![PC Case - Open Side Left](https://github.com/kcunanan/Jared-PC/blob/master/images/open-pc-side-left.jpg?raw=true)
-![PC Case - Open Side Right](https://github.com/kcunanan/Jared-PC/blob/master/images/open-side-pc-right.jpg?raw=true)
+![PC Case - Side Closed](./images/closed-side-pc.jpg?raw=true)
+![PC Case - Front](./images/front-pc.jpg?raw=true)
+![PC Case - Back](./images/back-pc.jpg?raw=true)
+![PC Case - Open Side Left](./images/open-pc-side-left.jpg?raw=true)
+![PC Case - Open Side Right](./images/open-side-pc-right.jpg?raw=true)
 
 <a name="parts"></a>
 
@@ -46,8 +45,7 @@
 
 <a name="bios"></a>
 
-## BIOS
-* Graphics -> iGPU Multi-Monitor enabled
+## BIOS - TBD
 
 <a name="what-works"></a>
 
@@ -56,6 +54,7 @@
 * Airdrop
 * Audio
 * USB 3.0 Speeds
+* iMessage
 * Bluetooth
 * Wi-Fi (2.4 and 5ghz)
 * Ethernet
@@ -64,25 +63,13 @@
 * Front Panel USB-C
 * Thunderbolt 3 (for graphics or for usb when powered on with it)
 
-<a name="still-testing"></a>
-
-## Still Testing
-* iMessage
-
 <a name="installation"></a>
 
 ## Installation
-* FYI - the only important folder here is the `EFI` everything else is supplementary. Will update eventually. If you'd like to know sooner, feel free to submit an issue with specific questions about the installation process so I know that it's needed by someone.
+* It is HIGHLY recommended you read through the [Open Core Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) before using this repository. There's no guarantee that the way I've set this up will work for your machine and you may need to tweak bios settings, kexts, etc.
 
 ### config.plist
-* Be sure to generate a new `Serial Number` and `SmUUID` for the SMBIOS
-
-### Motherboard
-Currently using bios 1.50 with `Fix AsRock Z390 BIOS DSDT Device(RTC) bug` fix
-
-Change these settings in the BIOS
-* Advanced > Chipset Configuration > VT-d -> Disabled
-* Advanced > USB Configuration > XHCI Hand-off -> Enabled
+* Be sure to generate a new `MLB`, `Serial Number` and `SmUUID` for the SMBIOS. Opencore has details on this as well
 
 ### Wi-Fi / Bluetooth 
 * ~~I replaced the stock Asrock Wi-Fi / BT card with a BCM94350ZAE WiFi / Bluetooth Chip. (create an issue if you'd like more documentation on this process)~~
