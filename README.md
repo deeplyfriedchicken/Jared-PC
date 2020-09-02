@@ -50,7 +50,7 @@
 <a name="what-works"></a>
 
 ## What Works
-* iGPU for Accelerated Graphics
+* ~~iGPU for Accelerated Graphics~~
 * Airdrop
 * Audio
 * USB 3.0 Speeds
@@ -78,8 +78,4 @@
 <a name="motivation"></a>
 
 ## Why I Decided to Build a Hackintosh
-My reasons for using macOS are pretty straightforward: I am a developer that loves MacOS for the look and feel of the operating system, and also MacOS' development environment. I started to get frustrated because my 2014 MacBook Pro felt sluggish and ran hot since I run `Docker` with most of my development. I had been really excited with the new 2018 Mac Mini, but I heard a lot of criticism about the lack of power, below-average thermals, and limited customizability. For around $1200, it definitely seemed like I could spend my money more effectively, so I decided to do more research.
-
-Before coming to the conclusion that I should build a Hackintosh, I experimented with various alternatives that could solve my dilemma. I tried Linux (Elementary, Deepin, Ubuntu, Mint) from time to time, but frankly it just isn't my cup of tea yet. I considered trying to replace my MacBook's hard drive with an NVMe drive to potentially help, but that came with it's own problems and I wasn't sure it was worth it. I even bought (and eventually returned) a used 2012 Mac Mini and replaced the hard drive with an SSD. This worked out pretty nicely, but I was underwhelmed by the processing power and started to worry about how long that would last since I invested a good amount of $$ for something older than my MacBook Pro. At some point, I tried using VMs for MacOS, but it didn't feel smooth, and my hardware was still a bottleneck. I became really enthused with the idea of having a desktop Mac that was completely customizable, could look like a Mac, would be fairly future-proof, and could dual boot Windows primarily for gaming.
-
-I hope this information helps someone out there!
+My reasons for using macOS are pretty straightforward: I am a developer that loves MacOS for the look and feel of the operating system, and also MacOS' UNIX development environment. Anything outside of the MacPro will run hot and slower than a desktop PC unfortunately. Opencore is surprisingly easy to setup, and works pretty smoothly, even in beta.
