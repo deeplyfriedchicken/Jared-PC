@@ -1,4 +1,4 @@
-# Asrock Phantom Gaming ITX / 9900K / Sapphire RX570 - Opencore Installation
+# Asrock Phantom Gaming ITX / 9900K - Opencore Installation
 * Version - 10.15.6
 * The kexts have been updated to support MacOS Catalina! Do a fresh install of all kexts to be safe. (Including removing those added to other folders not in `EFI`)
 
